@@ -1,0 +1,44 @@
+body, html {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+#imageAndPrompt {
+    background-color: darkgrey;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+}
+#imageBox{
+    width: 512px;
+    height: 512px;
+    background-color: black;
+}
+#sliders{
+    background-color: lightgray;
+    flex: .3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#promptBox {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
